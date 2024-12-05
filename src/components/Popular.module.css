@@ -1,0 +1,98 @@
+.popularCities {
+  padding: 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 1rem;
+  color: #333;
+}
+
+.intro {
+  font-size: 1rem;
+  color: #666;
+}
+
+.cityButtons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.cityButton {
+  padding: 10px 20px;
+  background: #ddd;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.cityButton:hover {
+  background: #ccc;
+  transform: scale(1.05);
+}
+
+.activeButton {
+  background: #007bff;
+  color: white;
+}
+
+.cityContent {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+}
+
+.cityImage img {
+  width: 450px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.cityInfo {
+  max-width: 500px;
+  text-align: left;
+}
+
+.detailsButton {
+  margin-top: 15px;
+  padding: 10px 15px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.detailsButton:hover {
+  background: #0056b3;
+}
+
+.cityDetails {
+  margin-top: 15px;
+}
+
+.detailImages {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.detailImages img {
+  width: 300px;
+  height: 300px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+}

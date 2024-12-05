@@ -1,0 +1,49 @@
+.weatherContainer {
+  background: #f7faff;
+  border: 1px solid #d1e7ff;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 500px;
+  margin: 20px auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.inputContainer {
+  margin-bottom: 20px;
+}
+
+.cityInput {
+  padding: 8px;
+  width: 80%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: border-color 0.3s ease;
+}
+
+.cityInput:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.weatherInfo h3 {
+  margin: 10px 0;
+  color: #007bff;
+}
+
+.weatherInfo p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.errorMessage {
+  color: red;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.weatherInfo {
+  margin-top: 20px;
+}

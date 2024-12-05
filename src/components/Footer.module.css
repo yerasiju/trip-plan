@@ -1,0 +1,51 @@
+.footer {
+  background-color: #001e3f;
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.footerContent {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+  color: white;
+}
+
+.socialLinks {
+  display: flex;
+  gap: 1rem;
+}
+
+.socialLinks a {
+  color: #f8f9fa;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.socialLinks a:hover {
+  color: #28a745;
+}
+
+.contactInfo {
+  font-size: 1rem;
+}
+
+.footerBottom {
+  border-top: 1px solid #555;
+  padding-top: 1rem;
+}
+
+.footerBottom p {
+  margin: 0;
+  font-size: 1rem;
+  color: white;
+}
+
+.footer {
+  align-self: flex-end;
+}
+.contactInfo p {
+  color: white;
+}

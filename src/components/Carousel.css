@@ -1,0 +1,71 @@
+.carousel {
+  height: 93vh;
+}
+
+.carousel-item {
+  height: 93vh;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  border-radius: 8px;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  /* For tablets and smaller devices */
+  .carousel {
+    height: 75vh; /* Slightly reduce height for smaller screens */
+  }
+
+  .carousel-item {
+    height: 75vh;
+  }
+
+  .carousel-caption {
+    font-size: 0.9rem; /* Adjust font size */
+    padding: 0.8rem; /* Reduce padding */
+    bottom: 10%; /* Ensure visibility */
+    text-align: center;
+  }
+
+  .carousel-caption h5 {
+    font-size: 1.2rem; /* Adjust title size */
+  }
+
+  .carousel-caption p {
+    font-size: 1rem; /* Adjust paragraph size */
+  }
+}
+
+@media (max-width: 480px) {
+  /* For mobile devices */
+  .carousel {
+    height: 65vh; /* Reduce height further for phones */
+  }
+
+  .carousel-item {
+    height: 65vh;
+  }
+
+  .carousel-caption {
+    font-size: 0.8rem; /* Further reduce font size */
+    padding: 0.6rem; /* Reduce padding */
+    bottom: 5%; /* Slightly closer to bottom */
+  }
+
+  .carousel-caption h5 {
+    font-size: 1rem; /* Adjust title size for phones */
+  }
+
+  .carousel-caption p {
+    font-size: 0.9rem; /* Adjust paragraph size for phones */
+  }
+}

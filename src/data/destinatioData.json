@@ -1,0 +1,118 @@
+[
+  {
+    "id": 1,
+    "name": "Auckland",
+    "category": "City",
+    "region": "Oceania",
+    "image": "src/assets/images/aaa.jpg",
+    "description": "Auckland is a bustling city in New Zealand known for its vibrant culture, scenic harbors, and diverse attractions. It's a gateway to stunning natural landscapes.",
+    "attractions": ["Sky Tower", "Waiheke Island", "Auckland Museum"]
+  },
+  {
+    "id": 2,
+    "name": "Great Barrier Reef",
+    "category": "Beach",
+    "region": "Oceania",
+    "image": "src/assets/images/a.jpg",
+    "description": "The Great Barrier Reef is the world's largest coral reef system, offering unparalleled snorkeling, diving, and marine biodiversity experiences.",
+    "attractions": ["Coral Reefs", "Hamilton Island", "Whitsundays"]
+  },
+  {
+    "id": 3,
+    "name": "Mount Cook",
+    "category": "Mountain",
+    "region": "Oceania",
+    "image": "src/assets/images/aa.jpg",
+    "description": "Mount Cook, or Aoraki, is the highest mountain in New Zealand and a paradise for climbers, hikers, and photographers.",
+    "attractions": [
+      "Hooker Valley Track",
+      "Tasman Glacier",
+      "Aoraki Mount Cook National Park"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Milford Sound",
+    "category": "Park",
+    "region": "Oceania",
+    "image": "src/assets/images/11.jpg",
+    "description": "Known as the 'Eighth Wonder of the World,' Milford Sound is a fjord in New Zealand with dramatic cliffs and waterfalls.",
+    "attractions": ["Mitre Peak", "Stirling Falls", "Fiordland National Park"]
+  },
+  {
+    "id": 5,
+    "name": "Paris",
+    "category": "City",
+    "region": "Europe",
+    "image": "src/assets/images/london2.jpg",
+    "description": "Paris, the 'City of Light,' is a global hub of art, fashion, gastronomy, and culture. It's home to iconic landmarks like the Eiffel Tower.",
+    "attractions": ["Eiffel Tower", "Louvre Museum", "Notre Dame Cathedral"]
+  },
+  {
+    "id": 6,
+    "name": "Santorini",
+    "category": "Beach",
+    "region": "Europe",
+    "image": "src/assets/images/dubai2.jpg",
+    "description": "Santorini is a Greek island famous for its whitewashed buildings, blue-domed churches, and stunning sunsets over the Aegean Sea.",
+    "attractions": ["Oia Village", "Red Beach", "Fira Town"]
+  },
+  {
+    "id": 7,
+    "name": "Swiss Alps",
+    "category": "Mountain",
+    "region": "Europe",
+    "image": "src/assets/images/sidney3.jpg",
+    "description": "The Swiss Alps are a mountain range known for breathtaking scenery, skiing resorts, and alpine villages.",
+    "attractions": ["Matterhorn", "Jungfrau Region", "Lake Geneva"]
+  },
+  {
+    "id": 8,
+    "name": "Plitvice Lakes",
+    "category": "Park",
+    "region": "Europe",
+    "image": "src/assets/images/2.jpg",
+    "description": "Plitvice Lakes National Park in Croatia is renowned for its cascading lakes, waterfalls, and lush forests.",
+    "attractions": ["Veliki Slap", "Lake Kozjak", "Boardwalk Trails"]
+  },
+  {
+    "id": 9,
+    "name": "Tokyo",
+    "category": "City",
+    "region": "Asia",
+    "image": "src/assets/images/tokyo2.jpg",
+    "description": "Tokyo, the capital of Japan, is a bustling metropolis blending ultramodern technology with traditional culture.",
+    "attractions": ["Shibuya Crossing", "Tokyo Tower", "Asakusa Temple"]
+  },
+  {
+    "id": 10,
+    "name": "Bali",
+    "category": "Beach",
+    "region": "Asia",
+    "image": "src/assets/images/dubai1.jpg",
+    "description": "Bali is an Indonesian island known for its forested volcanic mountains, iconic rice paddies, beaches, and coral reefs.",
+    "attractions": ["Ubud", "Tanah Lot Temple", "Kuta Beach"]
+  },
+  {
+    "id": 11,
+    "name": "Mount Everest",
+    "category": "Mountain",
+    "region": "Asia",
+    "image": "src/assets/images/aa.jpg",
+    "description": "Mount Everest is the world's tallest mountain and a symbol of adventure and endurance.",
+    "attractions": [
+      "Base Camp Trek",
+      "Himalayan Views",
+      "Sagarmatha National Park"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Kaziranga National Park",
+    "category": "Park",
+    "region": "Asia",
+    "image": "src/assets/images/aaa.jpg",
+    "description": "Kaziranga National Park in India is a UNESCO World Heritage site known for its population of one-horned rhinoceroses.",
+    "attractions": ["Jeep Safari", "Elephant Rides", "Wildlife Spotting"]
+  }
+]

@@ -1,0 +1,103 @@
+.aboutContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  animation: fadeIn 1.5s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.aboutItem {
+  display: flex;
+  align-items: center;
+  gap: 2.1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.aboutItem:nth-child(odd) .aboutImage {
+  order: 1;
+}
+
+.aboutImage {
+  flex-shrink: 0;
+  position: relative;
+  transform: translateX(-50px);
+  animation: slideIn 1s ease forwards;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.aboutImage img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.aboutImage img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+}
+
+.aboutText {
+  text-align: left;
+  animation: fadeInText 1.2s ease forwards;
+  transform: translateY(30px);
+  opacity: 0;
+}
+
+@keyframes fadeInText {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.aboutText h3 {
+  font-size: 1.8rem;
+  margin-bottom: 0.8rem;
+  color: #333;
+  position: relative;
+}
+
+.aboutText h3::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 50px;
+  height: 3px;
+  background: #007bff;
+}
+
+.aboutText p {
+  color: #555;
+  line-height: 1.8;
+  font-size: 1rem;
+}
